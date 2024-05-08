@@ -28,7 +28,7 @@
       margin-bottom: 20px;
     }
     .question {
-      font-family: 'Ceviche One', sans-serif;
+      font-family: sans-serif;
       color: #ffffff;
       margin-bottom: 20px;
       text-align: left;
@@ -65,10 +65,23 @@
   <div class="container">
     <h1>Conundrum Paradox</h1>
     <div class="question">
-      <p>Three people A, B, and C are called, in no particular order, True, False, and Random. True always speaks truly, False always speaks falsely, but whether Random speaks truly or falsely is a completely random matter. Your task is to determine the identities of A, B, and C by asking three yes-or-no questions; each question must be put to exactly one person. All of them understand English, but will answer all questions in their own language, in which the words for yes and no are “da” and “ja”, in some order. You do not know which word means which.</p>
+      <p>Three people A, B, and C are called, in no particular order, True, False, and Random. True always speaks truly, False always speaks falsely, but whether Random speaks truly or falsely is a completely random matter. Your task is to determine the identities of A, B, and C by asking three yes-or-no questions; each question must be put to exactly one god. The people understand English, but will answer all questions in their own language, in which the words for yes and no are “da” and “ja”, in some order. You do not know which word means which.</p>
     </div>
     <form action="https://docs.google.com/forms/d/e/1FAIpQLSemL6lksOAFH-epTRw9aKTpgNgKLt0z_TstqzKCOEcTgh9aew/formResponse" method="post" target="hiddenC" onsubmit="submitted=true">
-      <textarea class="answer-input" id="answer" name="entry.1331062905" rows="5" placeholder="Your answer..."></textarea>
+      <input type="text" id="team-name" name="entry.400028598" class="answer-input" placeholder="Team Name" required>
+
+      <input type="text" id="member1" name="entry.1204831194" class="answer-input" placeholder="Name (Member 1)" required>
+
+      <input type="text" id="member2" name="entry.1118823167" class="answer-input" placeholder="Name (Member 2)" required>
+
+      <input type="text" id="member3" name="entry.1431550130" class="answer-input" placeholder="Name (Member 3)" required>
+
+      <input type="text" id="contact" name="entry.1793507864" class="answer-input" placeholder="Contact" required>
+
+      <input type="email" id="email" name="entry.1209542098" class="answer-input" placeholder="E-mail" required>
+
+      <textarea id="answer" name="entry.1331062905" class="answer-input" rows="5" placeholder="Your answer..." required></textarea>
+      
       <button type="submit" class="submit-button">Submit</button>
     </form>
   </div>
